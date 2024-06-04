@@ -1,0 +1,166 @@
+* {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  font-weight:normal;
+  letter-spacing: 4px;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+body {
+  margin: 80px 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+
+p a {
+   color: grey;
+  font-size: 16px;
+}
+
+.home-content {
+  max-width: 920px;
+  min-width: 800px;
+  margin: auto auto;
+  float: center;
+}
+
+.content {
+  max-width: 750px;
+  min-width: 650px;
+  margin: auto auto;
+  float: center;
+}
+
+
+
+ 
+
+h2 img {
+  float: right;
+  width: 40%;
+  margin: 0 20px 20px 20px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  padding-bottom: 0px;
+}
+
+nav {
+  float: right;
+  text-align: left;
+  display: inline-block;
+  text-align: center;
+  border: 0px solid #e3e3e3;
+  border-width: 0px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0;
+  color: grey;
+}
+
+nav li:first-child a {
+  border-left: 1px solid #e3e3e3;
+
+}
+
+nav a {
+  border-right: 1px solid #e3e3e3;
+  color: grey;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 6px 15px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: 0;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 1px;
+}
+
+.column-r {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  text-align:right;
+}
+
+.column1 {
+  float: left;
+  width: 60%;
+  padding: 1px;
+}
+
+.column2 {
+  text-align: right;
+  float: right;
+  width: 25%;
+  padding: 20px;
+}
+.column3 {
+  float: right;
+  width: 55%;
+  padding: 1px;
+  text-align:justify;
+}
+
+.column4 {
+  text-align: left;
+  float: left;
+  width: 40%;
+  padding: 1px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
