@@ -9,6 +9,11 @@ h1 {
   letter-spacing: 4px;
 }
 
+a {
+   color: grey;
+  font-size: 16px;
+}
+
 h1 a {
   color: #000;
   text-decoration: none;
